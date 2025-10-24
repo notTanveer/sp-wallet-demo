@@ -28,11 +28,11 @@ In this workshop, we'll demonstrate a **production-ready Silent Payment wallet**
 
 | Topic                                    | Duration (min) | Format       | Host            |
 | ---------------------------------------- | -------------- | ------------ | --------------- |
-| Introduction to Silent Payments          | 20             | Presentation | TBD             |
+| Introduction and Silent Payments 101     | 20             | Presentation | TBD             |
 | Silent Payment Wallet Architecture       | 15             | Presentation | TBD             |
 | Live Demo: Create & Fund Wallet          | 30             | Live Demo    | TBD             |
 | Challenge: Sweep the Wallet!             | 45             | Interactive  | TBD             |
-| Architecture Deep Dive                   | 20             | Discussion   | TBD             |
+| Problem Discussion: HWW Support,Fast Scan| 20             | Discussion   | TBD             |
 | Q&A and Wrap-up                          | 10             | Discussion   | All             |
 
 ## Workshop Flow
