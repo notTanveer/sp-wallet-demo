@@ -56,8 +56,7 @@ We'll walk through creating a Shroud wallet live, funding it, and then challenge
 
 **For Local Development (Optional):**
 - Node.js v18+ ([download](https://nodejs.org/))
-- Xcode (Mac only, for iOS development)
-- Android Studio (for Android development)
+- Xcode & Android Studio ([Build and Run it](https://github.com/Bitshala-Incubator/silent-pay-wallet?tab=readme-ov-file#build--run-it))
 
 ## Major Problem Statements
 
