@@ -1,10 +1,14 @@
 # BOSS Summit - Silent Payment Wallet Workshop
 
+<div align="center">
+  <img src="assets/shroud.png" alt="Shroud Wallet Logo" width="200"/>
+</div>
+
 ## Synopsis: What is this workshop?
 
-This workshop demonstrates a **production-ready Silent Payment wallet** built on React Native. Silent Payments (BIP352) is a revolutionary Bitcoin protocol that enables receiving private payments from anyone using a single static address without requiring any interaction or extra on-chain overhead.
+This workshop demonstrates **Shroud** - a **Silent Payment wallet** built on React Native. Silent Payments (BIP352) is a revolutionary Bitcoin protocol that enables receiving private payments from anyone using a single static address without requiring any interaction or extra on-chain overhead.
 
-We'll walk through creating a Silent Payment wallet live, funding it, and then challenge participants to be the first to sweep the funds by importing the wallet on their mobile devices. This hands-on experience will teach you about Silent Payments implementation, blockchain scanning, and real-world Bitcoin transactions.
+We'll walk through creating a Shroud wallet live, funding it, and then challenge participants to be the first to sweep the funds by importing the wallet on their mobile devices. This hands-on experience will teach you about Silent Payments implementation, blockchain scanning, and real-world Bitcoin transactions.
 
 **Key Features of Silent Payments:**
 - **Privacy by Default**: Transactions appear indistinguishable from regular Bitcoin transactions
@@ -17,7 +21,7 @@ We'll walk through creating a Silent Payment wallet live, funding it, and then c
 | Topic                                    | Duration (min) | Format       | Host            |
 | ---------------------------------------- | -------------- | ------------ | --------------- |
 | Introduction and Silent Payments 101     | 20             | Presentation | TBD             |
-| Silent Payment Wallet Architecture       | 15             | Presentation | TBD             |
+|  Wallet Architecture                     | 15             | Presentation | TBD             |
 | Live Demo: Create & Fund Wallet          | 30             | Live Demo    | TBD             |
 | Challenge: Sweep the Wallet!             | 45             | Interactive  | TBD             |
 | Problem Discussion: HWW Support,Fast Scan| 20             | Discussion   | TBD             |
@@ -32,7 +36,7 @@ We'll walk through creating a Silent Payment wallet live, funding it, and then c
 4. Reveal the seed phrase publicly
 
 **Part 2: Interactive Challenge (45 minutes)**
-- Participants download the wallet app (iOS/Android)
+- Participants download Shroud (Android)
 - Import the shared seed phrase
 - Race to be the first to sweep the funds!
 - Learn about UTXO scanning, transaction creation, and race conditions
@@ -47,8 +51,8 @@ We'll walk through creating a Silent Payment wallet live, funding it, and then c
 
 ### Platform support
 
-- Android only: please bring an Android device running Android 11 or later. We’ll provide the APK or Play Store link during the workshop.
-- iOS is not supported for the live challenge — App Store registration and review timelines add unpredictable delays, so iOS builds won’t be available for on-stage imports. iOS users can follow the repo/Discord for post-workshop builds or use an Android emulator.
+- Android only: please bring an Android device running Android 11 or later. We'll provide the APK or Play Store link during the workshop.
+- iOS is not supported for the live challenge — App Store registration and review timelines add unpredictable delays, so iOS builds won't be available for on-stage imports. iOS users can follow the repo/Discord for post-workshop builds or use an Android emulator.
 
 **For Local Development (Optional):**
 - Node.js v18+ ([download](https://nodejs.org/))
@@ -102,7 +106,7 @@ We'll walk through creating a Silent Payment wallet live, funding it, and then c
 By the end of this workshop, participants will:
 
 ✅ **Understand** Silent Payments protocol fundamentals and BIP352  
-✅ **Experience** using a Silent Payment wallet hands-on  
+✅ **Experience** using Shroud wallet hands-on  
 ✅ **Learn** about blockchain scanning requirements and UTXO management  
 ✅ **Identify** practical challenges in mobile wallet development  
 ✅ **Contribute** ideas for improving Silent Payment adoption  
@@ -120,7 +124,7 @@ By the end of this workshop, participants will:
 
 ### Implementation References
 
-- **This Project**: [Silent Payment Wallet GitHub](https://github.com/Bitshala-Incubator/silent-pay-wallet)
+- **Shroud Wallet**: [Silent Payment Wallet GitHub](https://github.com/Bitshala-Incubator/silent-pay-wallet)
 - **Core Library**: [@silent-pay/core](https://github.com/Bitshala-Incubator/silent-pay)
 - **Indexer**: [Silent Payment Indexer](https://github.com/Bitshala-Incubator/silent-pay-indexer)
 
