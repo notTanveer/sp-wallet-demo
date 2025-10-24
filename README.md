@@ -42,9 +42,13 @@ We'll walk through creating a Silent Payment wallet live, funding it, and then c
 ### Required Software
 
 **For Challenge Participants:**
-- iOS: iPhone with iOS 15+ and TestFlight app installed
 - Android: Android device with Android 11+
 - **JUST BRING YOUR PHONE** - We'll provide download links during the workshop
+
+### Platform support
+
+- Android only: please bring an Android device running Android 11 or later. We’ll provide the APK or Play Store link during the workshop.
+- iOS is not supported for the live challenge — App Store registration and review timelines add unpredictable delays, so iOS builds won’t be available for on-stage imports. iOS users can follow the repo/Discord for post-workshop builds or use an Android emulator.
 
 **For Local Development (Optional):**
 - Node.js v18+ ([download](https://nodejs.org/))
